@@ -6,7 +6,7 @@ import ForgotPassword from '../screens/ForgotPassword';
 
 const Stack = createStackNavigator();
 
-const AutenticationStack = () => {
+const AuthenticationStack = () => {
     return(
         <Stack.Navigator screenOptions={{headerShown: false}}>
             <Stack.Screen name="SignIn" component={SignIn} />
@@ -16,4 +16,4 @@ const AutenticationStack = () => {
     );
 };
 
-export default AutenticationStack
+export default AuthenticationStack

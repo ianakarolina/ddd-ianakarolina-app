@@ -21,7 +21,6 @@ const ForgotPassword = ({fontsize,fontweight,navigation}) => {
 
     return (
         <Container>
-            <Icon name='arrowleft' size={25} color={colors.secundaria}/>
             <Logo resizeMode='contain' source={SilverLogo}/>
             <Text fontsize={17} fontweight={'bold'}>Silver Motors ID</Text>
             <Text fontsize={22} fontweight={'100'}>Esqueci minha senha</Text>
