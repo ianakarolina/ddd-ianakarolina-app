@@ -1,8 +1,5 @@
 import styled from "styled-components/native";
-
-
-import { screenHeight, screenWidth} from "../../src/constants/dimensions";
-import colors from "../../src/constants/colors";
+import colors from "../../constants/colors";
 
 export const Container = styled.View`
     flex: 1;

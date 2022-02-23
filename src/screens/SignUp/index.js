@@ -6,16 +6,16 @@ import {
         Text,
     } from './styles'
 
-import Button from '../../src/components/Button'
-import Input from '../../src/components/Input'
-import SilverLogo from '../../src/assets/Logo.png'
+import Button from '../../components/Button'
+import Input from '../../components/Input'
+import SilverLogo from '../../assets/Logo.png'
 
-import {screenHeight, screenWidth} from '../../src/constants/dimensions'
-import colors from '../../src/constants/colors'
+import {screenHeight, screenWidth} from '../../constants/dimensions'
+import colors from '../../constants/colors'
 
 const SignUp = ({fontsize,fontweight,navigation}) => {
     const navigateToLogin = () => {
-        navigation.navigate('Login')
+        navigation.navigate('SignIn')
     }
 
     return (

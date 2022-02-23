@@ -9,21 +9,20 @@ import {
         LineView,
         ViewOr
     } from './styles'
-import Button from '../../src/components/Button'
-import Input from '../../src/components/Input'
-import SilverLogo from '../../src/assets/Logo.png'
-import {screenHeight, screenWidth} from '../../src/constants/dimensions'
-import colors from '../../src/constants/colors'
-import GoogleButton from '../../src/components/GoogleButton'
-import { AntDesign } from '@expo/vector-icons'; 
+import Button from '../../components/Button'
+import Input from '../../components/Input'
+import SilverLogo from '../../assets/Logo.png'
+import {screenHeight, screenWidth} from '../../constants/dimensions'
+import colors from '../../constants/colors'
+import GoogleButton from '../../components/GoogleButton'
 
 const SignIn = ({fontstyle,textdecoration,marginleft,margintop,navigation}) => {
     const navigateToCadastro = () => {
-        navigation.navigate('Cadastro')
+        navigation.navigate('SignUp')
     }
 
     const navigateToEsqueciSenha = () => {
-        navigation.navigate('EsqueciSenha')
+        navigation.navigate('ForgotPassword')
     }
 
     return (
